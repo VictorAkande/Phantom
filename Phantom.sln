@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Phantom.Infrastructure", ".
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Phantom.Application", "..\Phantom.Application\Phantom.Application.csproj", "{D673ED78-D5DA-49E2-B202-BEF93873259C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateway", "Gateway", "{B8076B87-DEDA-4953-8E43-E522F67A7918}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Phantom.Gateway", "..\Phantom.Gateway\Phantom.Gateway.csproj", "{F550AA51-8FA2-4708-BC33-943ED6F5B454}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,9 +37,16 @@ Global
 		{D673ED78-D5DA-49E2-B202-BEF93873259C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D673ED78-D5DA-49E2-B202-BEF93873259C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D673ED78-D5DA-49E2-B202-BEF93873259C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F550AA51-8FA2-4708-BC33-943ED6F5B454}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F550AA51-8FA2-4708-BC33-943ED6F5B454}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F550AA51-8FA2-4708-BC33-943ED6F5B454}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F550AA51-8FA2-4708-BC33-943ED6F5B454}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F550AA51-8FA2-4708-BC33-943ED6F5B454} = {B8076B87-DEDA-4953-8E43-E522F67A7918}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BF772A97-50F2-4C12-8918-50AF7B646594}
